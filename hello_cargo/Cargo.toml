@@ -1,0 +1,11 @@
+# Cargo.toml 是 Cargo 的配置文件
+# 格式参考 https://github.com/toml-lang/toml#user-content-comment
+
+[package] # 表明下面的语句用于配置这个包
+name = "hello_cargo"
+version = "0.1.0"
+authors = ["杨少 <samyangcoder@gmail.com>"]
+
+[dependencies] # 项目依赖的 crates 列表（我们这样称呼 Rust 代码包），Cargo 会自动下载和编译列表列出的包，有 `二进制 crate` 和 `库 crate`，`库 crate` 可以包含任意能被其他程序使用的代码
+
+# 可以运行 cargo doc --open 命令来构建所有本地依赖提供的文档，并在浏览器中打开
