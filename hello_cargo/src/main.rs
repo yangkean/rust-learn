@@ -1,4 +1,4 @@
-// Rust 是一种 预编译静态强类型语言（ahead-of-time compiled language），同时有类型推断
+// Rust 是一种 提前编译语言（ahead-of-time compiled language），同时有类型推断
 // 如果文件名包含多个单词，使用下划线分隔它们
 // main 函数是特殊的：它是每个可执行的 Rust 程序首先执行的
 // Rust 要求所有函数体都要用花括号包裹起来
