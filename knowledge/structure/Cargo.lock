@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "common-programming-concepts"
+name = "structure"
 version = "0.1.0"
