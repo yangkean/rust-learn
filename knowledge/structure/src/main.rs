@@ -30,6 +30,7 @@ fn main() {
 
     // 结构体（structure），是一个允许我们命名并将多个相关值包装进一个有意义的组合的自定义类型。使用 struct 关键字定义
     // 结构体的每一部分可以是不同类型，每一部分都需要命名
+    #[derive(Debug)]
     struct User {
         username: String, // 定义时定义名字（字段）和字段类型
         email: String,
@@ -54,7 +55,7 @@ fn main() {
     };
 
     user1.email = String::from("another@example.com");
-    println!("email of user1 is: {}, active of user2 is: {}", user1.email, user2.active);
+    println!("user1 is: {:?}, user2 is: {:?}", user1, user2);
 
     // 元组结构体（tuple structs）：与元组相像的结构体，有着结构体名称提供的含义，但没有具体的字段名只有字段的类型
     struct Color(i32, i32, i32);
